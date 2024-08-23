@@ -1,5 +1,5 @@
 
-To run the simulation, run TimeSim.m in Octave (should also work in Matlab with perhaps a couple modifications).
+To run the simulation, run TimeSim.m in Octave (https://octave.org) It should also work in Matlab with perhaps a couple modifications.
 
 Some simulation parameter variables that can be modified in TimeSim.m:
 
@@ -7,6 +7,6 @@ SIM - simulation number, refers to settings in TimeSimSettings.m (e.g. number of
 SIMTIME - how many seconds of simulated time to run simulation
 ALLOC - job allocation method to use
 
-New simulations can be configured by following the examples in TimeSimSettings.m
+New simulations (machine and fleet compositions) can be configured by following the examples in TimeSimSettings.m
 
-Example simulation results (machine idle times) after running default settings in this repository are shown in image SampleResult.png .
+Example simulation results (total machine idle times) after running default settings in this repository are shown in image SampleResult.png .
